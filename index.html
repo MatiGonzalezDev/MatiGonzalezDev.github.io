@@ -1,0 +1,432 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+    <!--MENU ENCABEZADO-->
+    <div class="contenedor-header">
+        <header>
+            <div class="logo">
+                <a href="#">Mati</a>
+            </div>
+            <nav id="nav">
+                <ul>
+                    <li><a href="#inicio" onclick="seleccionar()">INICIO</a></li>
+                    <li><a href="#sobremi" onclick="seleccionar()">SOBRE MI</a></li>
+                    <li><a href="#skills" onclick="seleccionar()">SKILLS</a></li>
+                    <li><a href="#curriculum" onclick="seleccionar()">CURRICULUM</a></li>
+                    <li><a href="#portfolio" onclick="seleccionar()">PORTFOLIO</a></li>
+                    <li><a href="#contacto" onclick="seleccionar()">CONTACTO</a></li>
+                </ul>
+            </nav>
+            <div class="nav-responsive" onclick="mostrarOcultarMenu()">
+                <i class="fa-solid fa-bars"></i>
+            </div>
+        </header>
+    </div>
+
+    <!--SECCION INICIO-->
+    <section class="inicio" id="inicio">
+        <div class="contenido-banner">
+            <div class="contenedor-banner">
+                <div class="contenedor-img">
+                    <img src="img/hero.jpeg" alt="">
+                </div>
+                <h1>MATIAS GONZALEZ</h1>
+                <h3>Estudiante de Ingenieria - Programador Web jr</h3>
+                <div class="redes">
+                    <a href="https://m.facebook.com/profile.php?id=100004700296081"><i class="fa-brands fa-facebook-f"></i></a>
+                    <a href="https://www.linkedin.com/in/matias-gonzalez-a2156a21a"><i class="fa-brands fa-linkedin-in"></i></a>
+                    <a href="https://github.com/MatiGonzalezDev"><i class="fa-brands fa-github"></i></a>
+                    <a href="https://instagram.com/matiasgonzalez1840?utm_source=qr&igshid=NGExMmI2YTkyZg%3D%3D"><i class="fa-brands fa-instagram"></i></a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--SECCION SOBRE MI-->
+    <section class="sobremi" id="sobremi">
+        <div class="contenido-seccion">
+            <h2>Sobre Mí</h2>
+            <p>Hola! soy <span>Matias Gonzalez</span> tengo 23 años de edad. Me considero dinámico y predispuesto a los cambios, listo para utilizar mis habilidades y pasión para impulsar la misión de una compañía. Tecnológicamente hábil, ofrezco experiencia en programas de tecnología de oficina y habilidades informáticas. Actualmente me encuentro estudiando la carrera de Ingeniería en informática.</p>
+            <p>Les doy la bienvenida a mi pagina web, en donde podras encontrar algunas de mis prácticas y habilidades como programador. En la Seeccion Portfolio, podras observar imagenes de pequeñas practicas como autodidacta y estudiante de código. Todavia estoy aprendiendo y queda un largo camino por recorrer, pero paso que doy, me acerca más al lugar donde quiero estar.</p>
+                <i>"El único modo de hacer un gran trabajo es amar lo que haces" - Steve Jobs</i><br><br>
+
+            <div class="fila">
+                <!--DATOS PERSONALES-->
+                <div class="col">
+                    <h3>Datos Personales</h3>
+                    <ul>
+                        <li>
+                            <strong>Nombre</strong>
+                            Matías Nicolas González
+                        </li>
+                        <li>
+                            <strong>Cumpleaños</strong>
+                            02-06-2000
+                        </li>
+                        <li>
+                            <strong>Telefono</strong>
+                            +54 11 7235-3198
+                        </li>
+                        <li>
+                            <strong>Email</strong>
+                            matiasnicogonzalez@gmail.com
+                        </li>
+                        <li>
+                            <strong>Dirección</strong>
+                            Isidro Casanova, Argentina
+                        </li>
+                        <li>
+                            <strong>Cargo</strong>
+                            <span>FREELANCE</span>
+                        </li>
+                    </ul>
+                </div>
+                <!--intereses-->
+                <div class="col">
+                    <h3>Intereses</h3>
+                    <div class="contenedor-intereses">
+                        <div class="interes">
+                            <i class="fa-solid fa-gamepad"></i>
+                            <span>JUEGOS</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-solid fa-headphones"></i>
+                            <span>MUSICA</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-solid fa-plane"></i>
+                            <span>VIAJAR</span>
+                        </div> 
+                        <div class="interes">
+                            <i class="fa-regular fa-futbol"></i>
+                            <span>DEPORTE</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-solid fa-car"></i>
+                            <span>AUTOS</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-solid fa-microchip"></i>
+                            <span>TECH</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-solid fa-sitemap"></i>
+                            <span>IA</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-solid fa-calculator"></i>
+                            <span>MATH</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <button>
+                Descargar CV<i class="fa-solid fa-download"></i>
+                <span class="overlay"></span>
+            </button>
+        </div>
+    </section>
+
+    <!--SECCION SKILLS-->
+    <section class="skills" id="skills">
+        <div class="contenido-seccion">
+            <h2>Skills</h2>
+            <div class="fila">
+                <!--Technical Skills-->
+                <div class="col">
+                    <h3>Technical Skills</h3>
+                    <div class="skill">
+                        <span><img src="img/js.png" class="png" alt=""> Javascript</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>50%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span><img src="img/html-5.png" class="png" alt=""><img src="img/css-3.png" class="png" alt=""> HTML & CSS</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>75%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span><img src="img/mysql.png" class="png" alt=""> MySQL</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>25%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span><img src="img/c-.png" class="png" alt=""> C & C++</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>80%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span><img src="img/escritorio.png" class="png" alt=""> Office</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>95%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span><img src="img/arduino.png" class="png" alt=""> Arduino</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>70%</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!--Professional Skills-->
+                <div class="col">
+                    <h3>Professional Skills</h3>
+                    <div class="skill">
+                        <span>Integridad</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>100%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Comunicación</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>90%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Trabajo en Equipo</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>95%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Creatividad</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>75%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Dedicación</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>95%</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--SECCION CURRICULUM-->
+    <section class="curriculum" id="curriculum">
+        <div class="contenido-seccion">
+            <h2>Curriculum</h2>
+            <div class="fila">
+                <div class="col izquierda">
+                    <h3>Educación</h3>
+                    <div class="item izq">
+                        <h4>Operador de PC avanzado</h4>
+                        <span class="casa">Instituto Aserte</span>
+                        <span class="fecha">2019</span>
+                        <p>Operador de Sistema Operativo, Paquete de office Word(cartas, etiquetas, etc), PowerPoint(videos, edición, etc), Excel(hojas de calculo, formulas, funcion, BUSCAR.SI, etc), e integración del paquete</p>
+                        <div class="conectori">
+                            <div class="circuloi"></div>
+                        </div>
+                    </div>
+                    <div class="item izq">
+                        <h4>Robotica, electrónica y programación</h4>
+                        <span class="casa">Fundación Adveniant</span>
+                        <span class="fecha">2021</span>
+                        <p>Conocimiento y testeo de instrumentos electronicos(buzzards, leds rgb, motores, etc), lógica y programación en entorno de desarrollo arduino</p>
+                        <div class="conectori">
+                            <div class="circuloi"></div>
+                        </div>
+                    </div>
+                    <div class="item izq">
+                        <h4>Programador Web (Inicial)</h4>
+                        <span class="casa">Universidad Tecnológica Nacinal</span>
+                        <span class="fecha">2021</span>
+                        <p>Conocimientos en HTML, CSS (utilizando Boostrap, FontAwesome, GoogleFonts) y Javascript, realizacion de ropositorios utilizado como base de datos PHP MyAdmin MySQL</p>
+                        <div class="conectori">
+                            <div class="circuloi"></div>
+                        </div>
+                    </div>
+                    <div class="item izq">
+                        <h4>Técnico de PC-1</h4>
+                        <span class="casa">Instituto Aserte</span>
+                        <span class="fecha">2022</span>
+                        <p>Instalación de Sistema Operativo, plugins. Mantenimiento, reparación, armado y desarmado de partes de computadora</p>
+                        <div class="conectori">
+                            <div class="circuloi"></div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col derecha">
+                    <h3>Experiencia de trabajo</h3>
+                    <div class="item der">
+                        <h4>Empleado Administrativo</h4>
+                        <span class="casa">Estudio Jurídico Doctora Carmen Carrizo</span>
+                        <span class="fecha">2020 - 2023</span>
+                        <p>Gestión de procesos y organización de datos(Planillas legales, gestionescon aseguradoras, organizacion general de proveedores, planillas de calculo)</p>
+                        <div class="conectord">
+                            <div class="circulod"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--SECCION PORTFOLIO-->
+    <section class="portfolio" id="portfolio">
+        <div class="contenido-seccion">
+            <h2>PORTFOLIO</h2>
+            <div class="galeria">
+                <div class="proyecto">
+                    <img src="img/p7.jpeg" alt="">
+                    <div class="overlay">
+                        <h3>Login</h3>
+                        <p>Diseño web</p>
+                    </div>
+                </div>
+                <div class="proyecto">
+                    <img src="img/p8.jpeg" alt="">
+                    <div class="overlay">
+                        <h3>Login</h3>
+                        <p>Diseño web</p>
+                    </div>
+                </div>
+                <div class="proyecto">
+                    <img src="img/p9.jpeg" alt="">
+                    <div class="overlay">
+                        <h3>Login & register</h3>
+                        <p>Diseño web</p>
+                    </div>
+                </div>
+                <div class="proyecto">
+                    <img src="img/p1.jpg" alt="">
+                    <div class="overlay">
+                        <h3>Robotica</h3>
+                        <p>fotografia</p>
+                    </div>
+                </div>
+                <div class="proyecto">
+                    <img src="img/p2.jpg" alt="">
+                    <div class="overlay">
+                        <h3>Robotica</h3>
+                        <p>Fotografia</p>
+                    </div>
+                </div>
+                <div class="proyecto">
+                    <img src="img/p3.jpg" alt="">
+                    <div class="overlay">
+                        <h3>Robotica</h3>
+                        <p>Fotografia</p>
+                    </div>
+                </div>
+                <div class="proyecto">
+                    <img src="img/p4.jpg" alt="">
+                    <div class="overlay">
+                        <h3>Algoritmos</h3>
+                        <p>Fotografia</p>
+                    </div>
+                </div>
+                <div class="proyecto">
+                    <img src="img/p5.jpg" alt="">
+                    <div class="overlay">
+                        <h3>Diagramas</h3>
+                        <p>Fotografia</p>
+                    </div>
+                </div>
+                <div class="proyecto">
+                    <img src="img/p6.jpg" alt="">
+                    <div class="overlay">
+                        <h3>Código</h3>
+                        <p>Fotografia</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--SECCION CONTACTO-->
+    <seccion class="contacto" id="contacto">
+        <div class="contenido-seccion">
+            <h2>CONTACTO</h2>
+            <div class="fila">
+                <!--Formulario-->
+                <div class="col">
+                    <input type="text" placeholder="Tú Nombre">
+                    <input type="text" placeholder="Número telefónico">
+                    <input type="text" placeholder="Correo electronico">
+                    <input type="text" placeholder="Asunto">
+                    <textarea name="" id="" cols="30" rows="10" placeholder="Mensaje"></textarea>
+                    <button>
+                        Enviar Mensaje<i class="fa-solid fa-paper-plane"></i>
+                        <span class="overlay"></span>
+                    </button>
+                </div>
+                <!--Mapa-->
+                <div class="col">
+                    <img src="img/ubicacion.jpg" alt="">
+                    <div class="info">
+                        <ul>
+                            <li>
+                                <i class="fa-solid fa-location-dot"></i>
+                                Argentina, Isidro Casanova
+                            </li>
+                            <li>
+                                <i class="fa-solid fa-mobile-screen"></i>
+                                Llamanos: 11 7235-3198 
+                            </li>
+                            <li>
+                                <i class="fa-solid fa-envelope"></i>
+                                Email: matiasnicogonzalez@gmail.com
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </seccion>
+
+    <!--FOOTER-->
+    <footer>
+        <a href="#inicio" class="arriba">
+            <i class="fa-solid fa-angles-up"></i>
+        </a>
+        <div class="redes">
+            <a href="https://m.facebook.com/profile.php?id=100004700296081"><i class="fa-brands fa-facebook-f"></i></a>
+            <a href="https://www.linkedin.com/in/matias-gonzalez-a2156a21a"><i class="fa-brands fa-linkedin-in"></i></a>
+            <a href="https://github.com/MatiGonzalezDev"><i class="fa-brands fa-github"></i></a>
+            <a href="https://instagram.com/matiasgonzalez1840?utm_source=qr&igshid=NGExMmI2YTkyZg%3D%3D"><i class="fa-brands fa-instagram"></i></a>
+        </div>
+    </footer>
+    
+    <script src="script.js"></script>
+</body>
+</html>
