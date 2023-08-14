@@ -348,23 +348,26 @@
     <!--SECCION CONTACTO-->
     <seccion class="contacto" id="contacto">
         <div class="contenido-seccion">
-            <h2>CONTACTO</h2>
+            <form class="form" action="https://formspree.io/f/xqkvpgvl"
+            method="POST">
+                <h2>CONTACTO</h2>
             <div class="fila">
                 <!--Formulario-->
                 <div class="col">
-                    <input type="text" placeholder="Tú Nombre">
-                    <input type="text" placeholder="Número telefónico">
-                    <input type="text" placeholder="Correo electronico">
-                    <input type="text" placeholder="Asunto">
-                    <textarea name="" id="" cols="30" rows="10" placeholder="Mensaje"></textarea>
-                    <button>
+                    <input type="text" name="name"  placeholder="Tú Nombre">
+                    <input type="text" name="number" placeholder="Número telefónico">
+                    <input type="email" name="email" placeholder="Correo electronico">
+                    <input type="text" name="affair"  placeholder="Asunto">
+                    <textarea cols="30" rows="10" type="text" name="message" placeholder="Mensaje"></textarea>
+                    <button type="submit">
                         Enviar Mensaje<i class="fa-solid fa-paper-plane"></i>
                         <span class="overlay"></span>
                     </button>
                 </div>
+            </form>
                 <!--Mapa-->
                 <div class="col">
-                    <img src="img/ubicacion.jpg" alt="">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3279.7410616454317!2d-58.58287232335709!3d-34.711710463211126!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcc67454d9f9d9%3A0x6282dad5da83368!2sMi%20Esperanza%203679%2C%20B1765HYO%20Isidro%20Casanova%2C%20Provincia%20de%20Buenos%20Aires%2C%20Argentina!5e0!3m2!1ses!2sbr!4v1692030379762!5m2!1ses!2sbr" width="100%" height="450px%" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
                     <div class="info">
                         <ul>
                             <li>
