@@ -21,17 +21,19 @@ function efectoHabilidades(){
     var distancia_skills = window.innerHeight - skills.getBoundingClientRect().top;
     if(distancia_skills >= 300){
         let habilidades = document.getElementsByClassName("progreso");
-        habilidades[0].classList.add("javascript");
-        habilidades[1].classList.add("htmlcss");
-        habilidades[2].classList.add("mysql");
-        habilidades[3].classList.add("c");
-        habilidades[4].classList.add("office");
-        habilidades[5].classList.add("arduino");
-        habilidades[6].classList.add("integridad");
-        habilidades[7].classList.add("comunicacion");
-        habilidades[8].classList.add("trabajo");
-        habilidades[9].classList.add("creatividad");
-        habilidades[10].classList.add("dedicacion");
+        habilidades[0].classList.add("c");
+        habilidades[1].classList.add("javascript");
+        habilidades[2].classList.add("html");
+        habilidades[3].classList.add("css");
+        habilidades[4].classList.add("php");
+        habilidades[5].classList.add("mysql");
+        habilidades[6].classList.add("arduino");
+        habilidades[7].classList.add("office");
+        habilidades[8].classList.add("integridad");
+        habilidades[9].classList.add("comunicacion");
+        habilidades[10].classList.add("trabajo");
+        habilidades[11].classList.add("creatividad");
+        habilidades[12].classList.add("dedicacion");
     }
 }
 // detecto el scrolling para aplicar la animacion de la barra de habilidades
