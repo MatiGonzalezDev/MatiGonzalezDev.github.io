@@ -301,7 +301,7 @@ html{/* me permite deslizar cuando hago clic en los links del menu */
 }
 @keyframes html{
     0%{width: 0%;}
-    100%{width: 75%;}
+    100%{width: 100%;}
 }
 
 .skills .skill .css{
@@ -310,7 +310,7 @@ html{/* me permite deslizar cuando hago clic en los links del menu */
 }
 @keyframes css{
     0%{width: 0%;}
-    100%{width: 75%;}
+    100%{width: 90%;}
 }
 
 .skills .skill .git{
@@ -328,7 +328,7 @@ html{/* me permite deslizar cuando hago clic en los links del menu */
 }
 @keyframes php{
     0%{width: 0%;}
-    100%{width: 25%;}
+    100%{width: 35%;}
 }
 
 .skills .skill .mysql{
@@ -337,7 +337,7 @@ html{/* me permite deslizar cuando hago clic en los links del menu */
 }
 @keyframes mysql{
     0%{width: 0%;}
-    100%{width: 25%;}
+    100%{width: 35%;}
 }
 
 .skills .skill .arduino{
@@ -355,7 +355,7 @@ html{/* me permite deslizar cuando hago clic en los links del menu */
 }
 @keyframes office{
     0%{width: 0%;}
-    100%{width: 95%;}
+    100%{width: 100%;}
 }
 
 
@@ -373,7 +373,7 @@ html{/* me permite deslizar cuando hago clic en los links del menu */
 }
 @keyframes comunicacion{
     0%{width: 0%;}
-    100%{width: 90%;}
+    100%{width: 100%;}
 }
 .skills .skill .trabajo{
     width: 0%;
@@ -381,7 +381,7 @@ html{/* me permite deslizar cuando hago clic en los links del menu */
 }
 @keyframes trabajo{
     0%{width: 0%;}
-    100%{width: 95%;}
+    100%{width: 100%;}
 }
 .skills .skill .creatividad{
     width: 0%;
@@ -389,7 +389,7 @@ html{/* me permite deslizar cuando hago clic en los links del menu */
 }
 @keyframes creatividad{
     0%{width: 0%;}
-    100%{width: 75%;}
+    100%{width: 100%;}
 }
 .skills .skill .dedicacion{
     width: 0%;
@@ -397,7 +397,7 @@ html{/* me permite deslizar cuando hago clic en los links del menu */
 }
 @keyframes dedicacion{
     0%{width: 0%;}
-    100%{width: 95%;}
+    100%{width: 100%;}
 }
 /*SECCION C U R R I C U L U M*/
 .curriculum{
