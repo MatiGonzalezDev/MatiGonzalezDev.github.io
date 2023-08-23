@@ -315,7 +315,7 @@ html{/* me permite deslizar cuando hago clic en los links del menu */
 
 .skills .skill .git{
     width: 0%;
-    animation: 2s css forwards;
+    animation: 2s git forwards;
 }
 @keyframes git{
     0%{width: 0%;}
