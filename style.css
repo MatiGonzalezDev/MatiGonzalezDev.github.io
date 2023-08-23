@@ -313,6 +313,15 @@ html{/* me permite deslizar cuando hago clic en los links del menu */
     100%{width: 75%;}
 }
 
+.skills .skill .git{
+    width: 0%;
+    animation: 2s css forwards;
+}
+@keyframes git{
+    0%{width: 0%;}
+    100%{width: 75%;}
+}
+
 .skills .skill .php{
     width: 0%;
     animation: 2s php forwards;
