@@ -25,15 +25,16 @@ function efectoHabilidades(){
         habilidades[1].classList.add("javascript");
         habilidades[2].classList.add("html");
         habilidades[3].classList.add("css");
-        habilidades[4].classList.add("php");
-        habilidades[5].classList.add("mysql");
-        habilidades[6].classList.add("arduino");
-        habilidades[7].classList.add("office");
-        habilidades[8].classList.add("integridad");
-        habilidades[9].classList.add("comunicacion");
-        habilidades[10].classList.add("trabajo");
-        habilidades[11].classList.add("creatividad");
-        habilidades[12].classList.add("dedicacion");
+        habilidades[4].classList.add("css");
+        habilidades[5].classList.add("php");
+        habilidades[6].classList.add("mysql");
+        habilidades[7].classList.add("arduino");
+        habilidades[8].classList.add("office");
+        habilidades[9].classList.add("integridad");
+        habilidades[10].classList.add("comunicacion");
+        habilidades[11].classList.add("trabajo");
+        habilidades[12].classList.add("creatividad");
+        habilidades[13].classList.add("dedicacion");
     }
 }
 // detecto el scrolling para aplicar la animacion de la barra de habilidades
