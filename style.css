@@ -634,7 +634,7 @@ html{/* me permite deslizar cuando hago clic en los links del menu */
     top: 40%;
     background-color: #252A2E;
     padding: 20px;
-    max-width: 350px;
+    max-width: 400px;
     left: 50%;
     transform: translate(-50%, -50%);
 }
